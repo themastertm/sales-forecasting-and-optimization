@@ -472,7 +472,7 @@ with col1:
                         st.markdown(f"""
                         <div class="prediction-result">
                             <h3 style="margin-top:0;">Predicted Sales</h3>
-                            <div class="prediction-value">${prediction:,.2f}</div>
+                            <div class="prediction-value">${prediction:,.4f}M</div>
                             <p style="margin-bottom:0;">for the given parameters</p>
                         </div>
                         """, unsafe_allow_html=True)
